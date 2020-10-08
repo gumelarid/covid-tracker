@@ -1,0 +1,18 @@
+.image {
+  margin-top: 30px;
+  width: 370px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.love {
+  color: #e25555;
+}
+
+@media only screen and (max-width: 770px) {
+  .image {
+    margin-top: 10px;
+  }
+}
